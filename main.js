@@ -12,8 +12,10 @@ require.config({
 });
 
 require(
-	["eve-loader","raphael"],
-	function() {}
+	["raphael"],
+	function() {
+		console.log('raphael should be loaded');
+	}
 );
 
 
