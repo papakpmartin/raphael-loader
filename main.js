@@ -1,21 +1,22 @@
 require.config({
 	paths: {
-		"eve-loader": "libs/raphael-loader/eve-loader",
+		"eve": "libs/raphael/eve/eve",
 		"raphael": "libs/raphael/raphael"
 	},
 	shim: {
+		'eve': {
+			exports: "eve"
+		},
 		'raphael': {
-			deps: ["eve-loader"],
+			deps: ["eve"],
 			exports: "Raphael"
 		}
 	}
 });
 
-require(
+define(
 	["raphael"],
-	function() {
-		console.log('raphael should be loaded');
-	}
+	function() {}
 );
 
 
