@@ -3,6 +3,10 @@ raphael-loader
 
 RequireJS module to load Raphael without errors.
 
+__YOU DON'T NEED THIS!__ See my comment [here](https://github.com/DmitryBaranovskiy/raphael/issues/524#issuecomment-13947884).
+
+___
+
 As part of my learning curve getting into [RequireJS](http://requirejs.org), I was encountering problems loading up [Raphael](http://raphaeljs.com)... I was getting "eve is not defined" at best, nothing at worst.
 
 It turns out that since eve, a dependency of Rapheal, can conditionally work in a module environment, the `eve` object gets stashed away to a location other than where Raphael expects, which is `window.eve`.
