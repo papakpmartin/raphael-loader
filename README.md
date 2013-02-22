@@ -9,7 +9,7 @@ It turns out that since eve, a dependency of Rapheal, can conditionally work in 
 
 So this module simply loads eve as a dependency to Raphael before loading Raphael.
 
-This module simply loads Raphael in global context... I wasn't interested in modularizing Raphael.
+This module loads Raphael in global context... I wasn't interested in modularizing Raphael.
 
 To use this, I do the following:
 
