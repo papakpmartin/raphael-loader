@@ -7,7 +7,7 @@ require.config({
 	},
 	shim: {
 		'raphael.core': {
-			deps: ["eve"]
+			deps: ["e"]
 		},
 		'raphael.svg': {
 			deps: ["raphael.core"]
@@ -19,7 +19,7 @@ require.config({
 });
 
 define(
-	["e", "raphael.svg", "raphael.core"],
+	["raphael.svg", "raphael.vml"],
 	function() {}
 );
 
