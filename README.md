@@ -17,4 +17,4 @@ To use this, I do the following:
 2. Put this project's "raphael-loader" directory in with your scripts (you'll see that raphael-loader assumes a "scripts/libs" structure)
 3. Use `"raphael-loader/main"` as a dependency
 
-See the [test file](./test.html) for an easy example of how I'm using it.
+See the [project page](http://papakpmartin.github.com/raphael-loader/) for an easy example of how I'm using it.
