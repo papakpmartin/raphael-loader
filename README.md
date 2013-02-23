@@ -5,7 +5,7 @@ RequireJS module to load Raphael without errors.
 
 As part of my learning curve getting into [RequireJS](http://requirejs.org), I was encountering problems loading up [Raphael](http://raphaeljs.com)... I was getting "eve is not defined" at best, nothing at worst.
 
-It turns out that since eve, a dependency of Rapheal, can conditionally work in a module environment, the `eve` object gets stashed away to a location other than where Raphael expects (it looks for `eve` in global space).
+It turns out that since eve, a dependency of Raphael, can conditionally work in a module environment, the `eve` object gets stashed away to a location other than where Raphael expects (it looks for `eve` in global space).
 
 My goal here is not to modularize Raphael (I'd rather use 3rd party code as-is), but just to be able to easily use Raphael when I'm using RequireJS. So basically, `Raphael` remains a global.
 
