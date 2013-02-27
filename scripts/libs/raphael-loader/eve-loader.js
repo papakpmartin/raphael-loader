@@ -11,8 +11,8 @@ require.config({
 
 define(
 	["eve"],
-	function(eve) {
-		window.eve = eve;
+	function (eve) {
+		this.eve = eve;
 	}
 );
 
